@@ -23,3 +23,24 @@ A modern and reusable Counter Application built with **React (Vite)** using clea
 ---
 
 ## 🏗️ Project Structure
+
+counter-apps/
+│
+├── src/
+│ ├── components/
+│ │ ├── Button.jsx
+│ │ ├── CounterCard.jsx
+│ │ ├── CounterDisplay.jsx
+│ │ └── CounterButtons.jsx
+│ │
+│ ├── hooks/
+│ │ └── useCounter.js
+│ │
+│ ├── styles/
+│ │ └── global.css
+│ │
+│ ├── App.jsx
+│ └── main.jsx
+│
+├── index.html
+└── package.json
