@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(to right, #f3f4f6, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  width: 450px;
+}
+
+.card h1 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* Counter Display */
+.counter-display {
+  background: #f9fafb;
+  padding: 25px;
+  border-radius: 18px;
+  margin-bottom: 30px;
+  border: 2px solid #e5e7eb;
+}
+
+.counter-display h1 {
+  font-size: 60px;
+  margin: 10px 0 0;
+  font-weight: 700;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Base Button */
+.btn-base {
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 14px 28px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+/* Variants - Soft Pastel Like Image */
+.btn-primary {
+  background: #c7d2fe;
+  color: #1d4ed8;
+}
+
+.btn-danger {
+  background: #f8caca;
+  color: #dc2626;
+}
+
+.btn-secondary {
+  background: #d1d5db;
+  color: #111827;
+}
+
+/* Hover Effects */
+.btn-base:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
