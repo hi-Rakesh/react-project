@@ -1,7 +1,6 @@
 import { MapPin,Droplet,Wind } from "lucide-react";
 
 const WeatherCard = ({data}) => {
-  console.log("WeatherCard data:", data);
   const {location, current} = data;
   
 const formatDate = (date) => {

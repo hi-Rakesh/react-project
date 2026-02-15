@@ -5,7 +5,7 @@ export const useWeather = () => {
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-
+console.log(import.meta.env); 
   const getWeather = async (city) => {
     try {
       setLoading(true);
